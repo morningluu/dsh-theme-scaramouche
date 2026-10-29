@@ -1,0 +1,62 @@
+{
+  "name": "dsh-theme-scaramouche",
+  "version": "0.2.0",
+  "description": "A dark Genshin-inspired Scaramouche theme for DeepSeek Harness: native sidebar, static wallpaper playlists, optional opening video and music, particles, and a draggable glass dock.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-theme",
+    "theme",
+    "genshin",
+    "scaramouche",
+    "balladeer",
+    "wanderer",
+    "wallpaper"
+  ],
+  "author": "Moringluu (https://github.com/morningluu)",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "icon.svg",
+    "assets",
+    "screenshots.json",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morningluu/dsh-theme-scaramouche.git"
+  },
+  "homepage": "https://github.com/morningluu/dsh-theme-scaramouche#readme",
+  "bugs": {
+    "url": "https://github.com/morningluu/dsh-theme-scaramouche/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0"
+  }
+}

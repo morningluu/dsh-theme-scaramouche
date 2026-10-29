@@ -1,0 +1,11 @@
+# dsh-theme-scaramouche bundle
+#
+# 向 web profile 注入一行客户端主题模块。
+# 客户端模块扫描会读取本包 package.json 里的 dsh.client 声明，
+# 把 lib/client.js 作为浏览器 bundle 注入 ui-theme 槽位。
+#
+# 通过 `dsh plugin --profile desktop add link:<本目录>` 安装时，
+# 本 patch 会随 dsh.bundle.patch 自动挂进 loader，无需手改 profile。
+- insert:
+    - id: ui-theme-scaramouche
+      name: 'dsh-theme-scaramouche'

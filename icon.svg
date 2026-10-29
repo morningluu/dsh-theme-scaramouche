@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="散兵 · 浮世雷音 · 墨海青潮">
+  <defs>
+    <radialGradient id="sc-bg" cx="50%" cy="34%" r="74%">
+      <stop offset="0" stop-color="#0E2438"/>
+      <stop offset="0.55" stop-color="#07111C"/>
+      <stop offset="1" stop-color="#04060A"/>
+    </radialGradient>
+    <linearGradient id="sc-bolt" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#EAF6FF"/>
+      <stop offset="0.5" stop-color="#5DBECC"/>
+      <stop offset="1" stop-color="#1A4C90"/>
+    </linearGradient>
+    <linearGradient id="sc-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5DBECC"/>
+      <stop offset="1" stop-color="#4B4970"/>
+    </linearGradient>
+    <filter id="sc-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="url(#sc-bg)"/>
+  <circle cx="64" cy="64" r="51" fill="none" stroke="url(#sc-ring)" stroke-opacity="0.55"/>
+  <circle cx="64" cy="64" r="44" fill="none" stroke="#4B4970" stroke-opacity="0.90"
+          stroke-width="1" stroke-dasharray="1 5" stroke-linecap="round"/>
+
+  <!-- 雷光：贯穿华盖，上下露出 -->
+  <path d="M72 10 50 62h12l-10 52 32-56H72l6-48Z" fill="url(#sc-bolt)" filter="url(#sc-glow)"/>
+
+  <!-- 斗笠 / 华盖 -->
+  <path d="M17 75c14-7 31-11 47-11s33 4 47 11c-14 7-31 11-47 11s-33-4-47-11Z"
+        fill="#081421" stroke="#5DBECC" stroke-width="1.5"/>
+  <path d="M45 71c3-18 10-30 19-36 9 6 16 18 19 36-8 4-30 4-38 0Z"
+        fill="#0B1A28" stroke="#1A4C90" stroke-width="1.2"/>
+  <path d="M52 68c4-11 8-19 12-24" fill="none" stroke="#7FD8E4" stroke-opacity="0.55" stroke-width="1"/>
+  <circle cx="64" cy="31" r="2.4" fill="#EAF6FF"/>
+
+  <!-- 面纱垂线 -->
+  <path d="M44 84c-2 8 0 13 3 17M64 87v18M84 84c2 8 0 13-3 17"
+        fill="none" stroke="#4B4970" stroke-opacity="0.95" stroke-width="1"/>
+
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#5DBECC" stroke-opacity="0.18"/>
+</svg>
