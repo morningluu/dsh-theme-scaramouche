@@ -1,7 +1,7 @@
 {
   "name": "dsh-theme-scaramouche",
   "version": "0.2.0",
-  "description": "A dark Genshin-inspired Scaramouche theme for DeepSeek Harness: native sidebar, static wallpaper playlists, optional opening video and music, particles, and a draggable glass dock.",
+  "description": "A complete Genshin-inspired Scaramouche theme for DeepSeek Harness: static and video wallpapers, opening video, last-frame preset, ambient music, particles, and a draggable dock.",
   "keywords": [
     "deepseek-harness",
     "dsh",
@@ -12,7 +12,8 @@
     "scaramouche",
     "balladeer",
     "wanderer",
-    "wallpaper"
+    "wallpaper",
+    "video-wallpaper"
   ],
   "author": "Moringluu (https://github.com/morningluu)",
   "license": "MIT",
