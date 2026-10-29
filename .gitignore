@@ -1,0 +1,16 @@
+node_modules/
+.cache/
+dev/
+.ff-debug/
+*.tgz
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.m4a
+*.wav
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
