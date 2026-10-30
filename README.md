@@ -40,6 +40,10 @@
 
 ![wallpaper panel](assets/screenshot-2.png)
 
+### 开屏
+
+![opening](assets/screenshot-3.png)
+
 ## 安装
 
 ### 从 GitHub 安装（推荐）
@@ -123,8 +127,10 @@ dsh-theme-scaramouche/
 ├─ locale/{zh,en}.json
 ├─ scripts/intro-video.cjs
 ├─ assets/
+│  ├─ icon-180.png
 │  ├─ screenshot-1.png
-│  └─ screenshot-2.png
+│  ├─ screenshot-2.png
+│  └─ screenshot-3.png
 ├─ cordis.patch.yml
 ├─ screenshots.json
 ├─ package.json
